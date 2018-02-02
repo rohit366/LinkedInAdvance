@@ -1,0 +1,46 @@
+body {
+	background-color: rgba(173, 216, 230, 1);
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: 280px;
+}
+
+.col-md-6 {
+	margin-bottom: 20px;
+}
+
+.container {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.datetime {
+	margin-left: 50px;
+}
+
+.flash-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-container {
+	padding: 20px 70px;
+}
+
+.header {
+  padding: 15px 20px;
+	background-color: rgba(173, 216, 230, 1);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.radiobuttons {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+
