@@ -1,0 +1,4 @@
+selenium==3.8.1
+celery==4.1.0
+Flask==0.12.2
+python-dotenv==0.7.1

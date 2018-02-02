@@ -18,7 +18,7 @@ def send_async_message(url, messagetype, subject, message):
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
 
-    browser = webdriver.Chrome("/mnt/c/Users/Lim/Anaconda2/chromedriver.exe", chrome_options=options)
+    browser = webdriver.Chrome(os.getenv("CHROMEDRIVER_PATH"), chrome_options=options)
     browser.get("https://linkedin.com/uas/login")
 
     emailElement = browser.find_element_by_id("session_key-login")
